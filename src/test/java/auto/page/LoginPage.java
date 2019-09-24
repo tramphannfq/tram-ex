@@ -1,5 +1,7 @@
 package auto.page;
 
+import static org.junit.Assert.assertNotNull;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -36,4 +38,6 @@ public class LoginPage extends BasePage{
 		enterPassword(password);
 		clickSubmitButton();
 	}
+	
+	
 }

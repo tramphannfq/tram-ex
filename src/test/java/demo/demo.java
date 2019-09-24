@@ -28,7 +28,7 @@ public class demo {
 		assertNotNull("Logout link should be available!",logoutTxt);
 		driver.quit();
 
-		
+	
 	}
 
 }
