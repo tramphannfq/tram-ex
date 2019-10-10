@@ -1,7 +1,16 @@
 package auto.test;
 
+import org.junit.Test;
+
 public class DemoDragDrop extends BaseTest {
-//navigate http://demo.guru99.com/test/drag_drop.html
-//drag and drop BANK to Debit, SALES to Credit and Amount is 5000
-	
+	@Test
+	public void drapDropTest() {
+		
+	basePage.navigate("http://demo.guru99.com/test/drag_drop.html");
+	newDragDropPage.dragToBox("BANK","DEBIT","Account");
+	newDragDropPage.dragToBox("5000","DEBIT","Amount");
+	newDragDropPage.dragToBox("SALES","CREDIT","Account");
+	newDragDropPage.dragToBox("5000","CREDIT","Amount");
+
+	}
 }

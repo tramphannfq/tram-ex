@@ -52,7 +52,7 @@ public class BaseTest {
 		newAccountPage = new NewAccountPage(driver);
 		newCustomerPage = new NewCustomerPage(driver);
 		newCustomizedStatePage = new NewCustomizedStatePage(driver);
-
+		newDragDropPage = new DragDropPage(driver);
 	}
 
 	protected WebElement findElement(By by) {
