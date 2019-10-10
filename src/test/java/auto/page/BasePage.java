@@ -46,5 +46,8 @@ public class BasePage {
 		driver.get(url);
 		
 	}
+  //protected void dragAndDrop(String sourceElement, String targerElement) {
+	//checkNotNull("Source")  
+	  
+  }
 
-}
